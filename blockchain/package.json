@@ -1,0 +1,26 @@
+{
+  "name": "industrial-equipment-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-Based Industrial Equipment Maintenance and Service History Management System",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "industrial-equipment",
+    "hardhat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "hardhat": "^2.22.5"
+  }
+}
